@@ -17,7 +17,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     rm = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("✨ Update Channel", url="https://telegram.me/KGN_BOT_Z")
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.me/Avaflixbackup")
         ]] 
     )
     await client.send_message(
@@ -65,6 +65,7 @@ async def stream_start(client, message):
             ]
         ] 
     )
-    msg_text = """"<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n\n<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>\n\n<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n\n<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n\n<b> 🖥ᴡᴀᴛᴄʜ  :</b> <i>{}</i>\n\n<b>🚸 Nᴏᴛᴇ : ʟɪɴᴋ ᴡᴏɴ'ᴛ ᴇxᴘɪʀᴇ ᴛɪʟʟ ɪ ᴅᴇʟᴇᴛᴇ</b>\n\n<b>USE 1DM FOR BEST EXPRIENCE\n\n Check Process To use 1DM - https://t.me/howtofownlo/25</b>"""
+    msg_text = """"<i><u>🔆 [ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 / 𝐒𝐓𝐑𝐄𝐀𝐌 ] 🔆
+⌬──━━━━━━━━━━━━━━──⌬</u></i>\n\n<b>📗 Fɪʟᴇ Nᴀᴍᴇ ➜</b> <i>{}</i>\n\n<b>📒 Fɪʟᴇ Sɪᴢᴇ ➜</b> <i>{}</i>\n\n<b>♻️ Dᴏᴡɴʟᴏᴀᴅ ➜</b> <i>{}</i>\n\n<b>  🌟 Sᴛʀᴇᴀᴍ ➜</b> <i>{}</i>\n\n<b>🔆 Nᴏᴛᴇ : ʟɪɴᴋ ᴡᴏɴ'ᴛ ᴇxᴘɪʀᴇ ᴛɪʟʟ ɪ ᴅᴇʟᴇᴛᴇ</b>"""
 
     await message.reply_text(text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(message)), download, stream), quote=True, disable_web_page_preview=True, reply_markup=rm)
