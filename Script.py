@@ -4,11 +4,11 @@
 
 
 class script(object):
-    START_TXT = """<b>Hello {} 👋, My Name Is <a href=https://t.me/{}>{}</a>
-    
-✏️ I Am A Advance File Stream and File Download Bot With Multiple Player Support . Best Ui Performance.
+    START_TXT = """🔆 [ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 / 𝐒𝐓𝐑𝐄𝐀𝐌 ] 🔆
+⌬──━━━━━━━━━━━━━━──⌬
+♻ 𝗪𝗶𝘁𝗵 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗚𝗲𝘁 𝗙𝗮𝘀𝘁 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 / 𝗦𝘁𝗿𝗲𝗮𝗺 𝗟𝗶𝗻𝗸𝘀 𝗧𝗼 𝗔𝗻𝘆 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗙𝗶𝗹𝗲𝘀!
 
-Now Send Me A Media To See Magic ✨</b>"""
+🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - @TheAnasPMbot"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
